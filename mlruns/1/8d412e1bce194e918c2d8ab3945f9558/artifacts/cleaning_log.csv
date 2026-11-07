@@ -1,0 +1,6 @@
+operation,count
+input_rows,4269
+missing_target_rows_removed,0
+duplicate_records_removed,0
+invalid_cells_to_missing,28
+output_rows,4269

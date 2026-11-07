@@ -1,0 +1,16 @@
+feature,roc_auc_decrease_mean,roc_auc_decrease_std
+cibil_score,0.47702972952487566,0.012317774086872652
+loan_term,0.009490242722126018,0.000735906378356534
+loan_to_income_ratio,0.004285389445697984,0.0008253018206736307
+assets_to_loan_ratio,0.0038236168686921258,2.88946300125773e-05
+commercial_assets_value,2.3321847323565238e-06,2.856331290091418e-06
+total_assets_value,1.1660923661782619e-06,2.3321847323565238e-06
+no_of_dependents,0.0,0.0
+income_annum,0.0,0.0
+loan_amount,0.0,0.0
+education,0.0,0.0
+self_employed,0.0,0.0
+bank_asset_value,0.0,0.0
+luxury_assets_value,0.0,0.0
+residential_assets_value,0.0,0.0
+loan_amount_per_term,0.0,0.0

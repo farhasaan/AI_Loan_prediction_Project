@@ -1,0 +1,63 @@
+{
+  "dataset": "architsharma01/loan-approval-prediction-dataset",
+  "dataset_url": "https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset",
+  "target": "loan_status",
+  "target_mapping": {
+    "rejected": 0,
+    "approved": 1
+  },
+  "raw_features": [
+    "no_of_dependents",
+    "education",
+    "self_employed",
+    "income_annum",
+    "loan_amount",
+    "loan_term",
+    "cibil_score",
+    "residential_assets_value",
+    "commercial_assets_value",
+    "luxury_assets_value",
+    "bank_asset_value"
+  ],
+  "model_features": [
+    "no_of_dependents",
+    "education",
+    "self_employed",
+    "income_annum",
+    "loan_amount",
+    "loan_term",
+    "cibil_score",
+    "residential_assets_value",
+    "commercial_assets_value",
+    "luxury_assets_value",
+    "bank_asset_value",
+    "total_assets_value",
+    "loan_to_income_ratio",
+    "assets_to_loan_ratio",
+    "loan_amount_per_term"
+  ],
+  "engineered_features": [
+    "total_assets_value",
+    "loan_to_income_ratio",
+    "assets_to_loan_ratio",
+    "loan_amount_per_term"
+  ],
+  "split_random_state": 42,
+  "train_rows": 3415,
+  "test_rows": 854,
+  "decision_threshold": 0.5,
+  "selected_model": "random_forest",
+  "selected_parameters": {
+    "model__n_estimators": 400,
+    "model__min_samples_leaf": 4,
+    "model__max_features": 0.8,
+    "model__max_depth": 16
+  },
+  "mlflow_tracking_uri": "sqlite:///D:\\Python\\AI_Loan_prediction_Project\\mlflow.db",
+  "mlflow_experiment_id": "1",
+  "mlflow_final_run_id": "8d412e1bce194e918c2d8ab3945f9558",
+  "mlflow_model_uri": "runs:/8d412e1bce194e918c2d8ab3945f9558/model",
+  "invalid_values": "Replaced by missing before splitting; imputation fitted in each training fold",
+  "outlier_policy": "IQR flags reported from training data; valid extreme values retained",
+  "model_training_data": "Training split only; holdout excluded from fitting and model selection"
+}
