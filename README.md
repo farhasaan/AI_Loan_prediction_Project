@@ -242,3 +242,6 @@ Improve explainability using model interpretation techniques.
 Evaluate fairness and potential bias in loan approval predictions.
 
 Disclaimer: This project is developed for educational and portfolio purposes. It is not intended to replace professional credit risk assessment or actual financial decision-making.
+
+*Note: You can access the project model via the link below
+https://ailoanpredictionproject-gmev6muepwwamvnvaedf5f.streamlit.app/
